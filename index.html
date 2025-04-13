@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bilgi Yarışması</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="start-screen" id="start-screen">
+    <h1>Bilgi Yarışmasına Hoş Geldin!</h1>
+    <button id="start-btn">Başla</button>
+  </div>
+
+  <div class="timer" id="timer" style="display: none;">2:30</div> <!-- Sayaç eklendi -->
+  
+  <div class="quiz-container" id="quiz-container" style="display: none;">
+    <h1>Bilgi Yarışması</h1>
+    <div id="question-container">
+      <p id="question">Soru buraya gelecek</p>
+      <div id="options"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+      <p id="remaining-questions">Kalan Sorular: </p>
+      <button id="mute" onclick="toggleMusic()">🔇</button>
+    </div>
+    <button id="next-btn">Sonraki</button>
+    <p id="score" style="display: none;"></p>
+  </div>
+
+  <audio id="title-music" loop>
+    <source src="Title.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="game-music">
+    <source src="Game.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="end-music">
+    <source src="End Screen.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+
+  <div id="end-screen">
+    <h2>Yarışma sona erdi</h2>
+    <p id="final-message">Süre doldu!</p>
+    <p id="final-score"></p>
+    <button id="retry-btn" onclick="retryQuiz()">Tekrar Dene</button>
+  </div>
+
+</body>
+</html>

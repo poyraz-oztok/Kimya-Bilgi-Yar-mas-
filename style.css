@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#options button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f8ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#options button:hover {
+  background-color: #f8f898;
+}
+
+#options button.correct {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#options button.wrong {
+  background-color: #f44336;
+  color: white;
+}
+
+.timer {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #222;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.start-screen {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #222;
+  padding: 2.5%;
+  border-radius: 25px 5px;
+  color: #f8f8ff;
+}
+
+#start-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#start-btn:hover {
+  background-color: #45a049;
+}
+
+#next-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#next-btn {
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#remaining-questions {
+  font-size: 16px;
+  background-color: #333;
+  color: #f8f8ff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#end-screen {
+  display: none;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #f8f8ff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#end-screen h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+#end-screen p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+#retry-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#retry-btn:hover {
+  background-color: #45a049;
+}

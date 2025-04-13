@@ -1,0 +1,77 @@
+[
+{
+  "question": "Periyodik tabloda aynı grupta bulunan elementlerin ortak özelliği nedir?",
+  "options": ["Aynı atom numarasına sahiptirler", "Benzer kimyasal özellik gösterirler", "Aynı sayıda proton içerirler", "Aynı kütle numarasına sahiptirler"],
+  "answer": "Benzer kimyasal özellik gösterirler"
+},
+{
+  "question": "Bir elementin atom numarası neyi gösterir?",
+  "options": ["Nötron sayısını", "Proton sayısını", "Kütle numarasını", "Elektron sayısını ve nötron sayısının toplamını"],
+  "answer": "Proton sayısını"
+},
+{
+  "question": "Su (H₂O) bileşiğinde hidrojen ve oksijen atomları arasında hangi tür bağ vardır?",
+  "options": ["İyonik bağ", "Kovalent bağ", "Metalik bağ", "Zayıf etkileşim"],
+  "answer": "Kovalent bağ"
+},
+{
+  "question": "Bir maddenin katı hâlden sıvı hâle geçmesine ne ad verilir?",
+  "options": ["Yoğuşma", "Süblimleşme", "Erime", "Donma"],
+  "answer": "Erime"
+},
+{
+  "question": "Aşağıdakilerden hangisi homojen bir karışımdır?",
+  "options": ["Tuzlu su", "Toprak", "Adana kebabı", "Salata"],
+  "answer": "Tuzlu su"
+},
+{
+  "question": "Bir elementin izotopları neyi farklılık gösterir?",
+  "options": ["Proton sayısını", "Elektron sayısını", "Nötron sayısını", "Çekirdek yükünü"],
+  "answer": "Nötron sayısını"
+},
+{
+  "question": "Avogadro sayısı yaklaşık olarak kaçtır?",
+  "options": ["6.02 x 10²³", "3.14", "9.81", "1.67 x 10⁻²⁷"],
+  "answer": "6.02 x 10²³"
+},
+{
+  "question": "pH değeri 3 olan bir madde aşağıdakilerden hangisidir?",
+  "options": ["Baz", "Nötr", "Asit", "Tuz"],
+  "answer": "Asit"
+},
+{
+  "question": "Elektronegatifliği en yüksek element aşağıdakilerden hangisidir?",
+  "options": ["Flor", "Oksijen", "Hidrojen", "Azot"],
+  "answer": "Flor"
+},
+{
+  "question": "Aşağıdakilerden hangisi fiziksel değişim örneğidir?",
+  "options": ["Demirin paslanması", "Kağıdın yanması", "Buzun erimesi", "Sütün ekşimesi"],
+  "answer": "Buzun erimesi"
+},
+{
+  "question": "Kütlenin korunumu yasası kimin tarafından ortaya konmuştur?",
+  "options": ["Newton", "Dalton", "Lavoisier", "Bohr"],
+  "answer": "Lavoisier"
+},
+{
+  "question": "Mol kavramı neyi ifade eder?",
+  "options": ["Atom ağırlığını", "Birim hacmi", "6.02 x 10²³ tane taneciği", "Gaz basıncını"],
+  "answer": "6.02 x 10²³ tane taneciği"
+},
+{
+  "question": "Endotermik tepkimelerde sistem çevreden nasıl enerji alır?",
+  "options": ["Işık", "Sıcaklık", "Isı", "Ses"],
+  "answer": "Isı"
+},
+{
+  "question": "Aşağıdaki gazlardan hangisi asal gaz değildir?",
+  "options": ["Neon", "Argon", "Azot", "Helyum"],
+  "answer": "Azot"
+},
+{
+  "question": "Katı bir maddenin doğrudan gaz hâline geçmesine ne ad verilir?",
+  "options": ["Erime", "Süblimleşme", "Yoğuşma", "Donma"],
+  "answer": "Süblimleşme"
+}
+]
