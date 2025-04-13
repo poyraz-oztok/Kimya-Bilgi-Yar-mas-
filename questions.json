@@ -1,77 +1,152 @@
 [
-{
-  "question": "Periyodik tabloda aynı grupta bulunan elementlerin ortak özelliği nedir?",
-  "options": ["Aynı atom numarasına sahiptirler", "Benzer kimyasal özellik gösterirler", "Aynı sayıda proton içerirler", "Aynı kütle numarasına sahiptirler"],
-  "answer": "Benzer kimyasal özellik gösterirler"
-},
-{
-  "question": "Bir elementin atom numarası neyi gösterir?",
-  "options": ["Nötron sayısını", "Proton sayısını", "Kütle numarasını", "Elektron sayısını ve nötron sayısının toplamını"],
-  "answer": "Proton sayısını"
-},
-{
-  "question": "Su (H₂O) bileşiğinde hidrojen ve oksijen atomları arasında hangi tür bağ vardır?",
-  "options": ["İyonik bağ", "Kovalent bağ", "Metalik bağ", "Zayıf etkileşim"],
-  "answer": "Kovalent bağ"
-},
-{
-  "question": "Bir maddenin katı hâlden sıvı hâle geçmesine ne ad verilir?",
-  "options": ["Yoğuşma", "Süblimleşme", "Erime", "Donma"],
-  "answer": "Erime"
-},
-{
-  "question": "Aşağıdakilerden hangisi homojen bir karışımdır?",
-  "options": ["Tuzlu su", "Toprak", "Adana kebabı", "Salata"],
-  "answer": "Tuzlu su"
-},
-{
-  "question": "Bir elementin izotopları neyi farklılık gösterir?",
-  "options": ["Proton sayısını", "Elektron sayısını", "Nötron sayısını", "Çekirdek yükünü"],
-  "answer": "Nötron sayısını"
-},
-{
-  "question": "Avogadro sayısı yaklaşık olarak kaçtır?",
-  "options": ["6.02 x 10²³", "3.14", "9.81", "1.67 x 10⁻²⁷"],
-  "answer": "6.02 x 10²³"
-},
-{
-  "question": "pH değeri 3 olan bir madde aşağıdakilerden hangisidir?",
-  "options": ["Baz", "Nötr", "Asit", "Tuz"],
-  "answer": "Asit"
-},
-{
-  "question": "Elektronegatifliği en yüksek element aşağıdakilerden hangisidir?",
-  "options": ["Flor", "Oksijen", "Hidrojen", "Azot"],
-  "answer": "Flor"
-},
-{
-  "question": "Aşağıdakilerden hangisi fiziksel değişim örneğidir?",
-  "options": ["Demirin paslanması", "Kağıdın yanması", "Buzun erimesi", "Sütün ekşimesi"],
-  "answer": "Buzun erimesi"
-},
-{
-  "question": "Kütlenin korunumu yasası kimin tarafından ortaya konmuştur?",
-  "options": ["Newton", "Dalton", "Lavoisier", "Bohr"],
-  "answer": "Lavoisier"
-},
-{
-  "question": "Mol kavramı neyi ifade eder?",
-  "options": ["Atom ağırlığını", "Birim hacmi", "6.02 x 10²³ tane taneciği", "Gaz basıncını"],
-  "answer": "6.02 x 10²³ tane taneciği"
-},
-{
-  "question": "Endotermik tepkimelerde sistem çevreden nasıl enerji alır?",
-  "options": ["Işık", "Sıcaklık", "Isı", "Ses"],
-  "answer": "Isı"
-},
-{
-  "question": "Aşağıdaki gazlardan hangisi asal gaz değildir?",
-  "options": ["Neon", "Argon", "Azot", "Helyum"],
-  "answer": "Azot"
-},
-{
-  "question": "Katı bir maddenin doğrudan gaz hâline geçmesine ne ad verilir?",
-  "options": ["Erime", "Süblimleşme", "Yoğuşma", "Donma"],
-  "answer": "Süblimleşme"
-}
+  {
+    "question": "Periyodik tabloda aynı grupta bulunan elementlerin ortak özelliği nedir?",
+    "options": ["Aynı atom numarasına sahiptirler", "Benzer kimyasal özellik gösterirler", "Aynı sayıda proton içerirler", "Aynı kütle numarasına sahiptirler"],
+    "answer": "Benzer kimyasal özellik gösterirler"
+  },
+  {
+    "question": "Bir elementin atom numarası neyi gösterir?",
+    "options": ["Nötron sayısını", "Proton sayısını", "Kütle numarasını", "Elektron ve nötron sayısının toplamını"],
+    "answer": "Proton sayısını"
+  },
+  {
+    "question": "Su (H₂O) molekülünde hidrojen ve oksijen atomları arasında hangi tür bağ bulunur?",
+    "options": ["İyonik bağ", "Kovalent bağ", "Metalik bağ", "Zayıf etkileşim"],
+    "answer": "Kovalent bağ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi homojen bir karışımdır?",
+    "options": ["Tuzlu su", "Toprak", "Adana kebabı", "Salata"],
+    "answer": "Tuzlu su"
+  },
+  {
+    "question": "Avogadro sayısı yaklaşık olarak kaçtır?",
+    "options": ["6.02 x 10²³", "3.14", "9.81", "1.67 x 10⁻²⁷"],
+    "answer": "6.02 x 10²³"
+  },
+  {
+    "question": "pH değeri 3 olan bir madde hangi özelliktedir?",
+    "options": ["Baz", "Nötr", "Asit", "Tuz"],
+    "answer": "Asit"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi fiziksel bir değişimdir?",
+    "options": ["Demirin paslanması", "Kâğıdın yanması", "Buzun erimesi", "Sütün ekşimesi"],
+    "answer": "Buzun erimesi"
+  },
+  {
+    "question": "Kütlenin korunumu yasasını kim ortaya koymuştur?",
+    "options": ["Newton", "Dalton", "Lavoisier", "Bohr"],
+    "answer": "Lavoisier"
+  },
+  {
+    "question": "Mol kavramı neyi ifade eder?",
+    "options": ["Atom ağırlığını", "Birim hacmi", "6.02 x 10²³ taneciği", "Gaz basıncını"],
+    "answer": "6.02 x 10²³ taneciği"
+  },
+  {
+    "question": "Endotermik tepkimelerde sistem çevreden hangi şekilde enerji alır?",
+    "options": ["Işık", "Sıcaklık", "Isı", "Ses"],
+    "answer": "Isı"
+  },
+  {
+    "question": "Aşağıdaki gazlardan hangisi asal gaz değildir?",
+    "options": ["Neon", "Argon", "Azot", "Helyum"],
+    "answer": "Azot"
+  },
+  {
+    "question": "Katı bir maddenin doğrudan gaz hâline geçmesine ne ad verilir?",
+    "options": ["Erime", "Süblimleşme", "Yoğuşma", "Donma"],
+    "answer": "Süblimleşme"
+  },
+  {
+    "question": "Bir bileşiği oluşturan elementler arasında sabit oran bulunması hangi kanunla açıklanır?",
+    "options": ["Katlı oranlar kanunu", "Sabit oranlar kanunu", "Kütlenin korunumu kanunu", "Gazların hacim oranları kanunu"],
+    "answer": "Sabit oranlar kanunu"
+  },
+  {
+    "question": "Hangisi bir bileşiği temsil eder?",
+    "options": ["O", "Na", "H₂O", "Fe"],
+    "answer": "H₂O"
+  },
+  {
+    "question": "Aşağıdaki taneciklerden hangisi pozitif yüklüdür?",
+    "options": ["Elektron", "Proton", "Nötron", "Anyon"],
+    "answer": "Proton"
+  },
+  {
+    "question": "Bir gazın hacmi, sıcaklık sabitken basınçla nasıl bir ilişki içindedir?",
+    "options": ["Doğru orantılı", "Ters orantılı", "Sabit kalır", "Değişmez"],
+    "answer": "Ters orantılı"
+  },
+  {
+    "question": "Hangisi kimyasal bir değişimdir?",
+    "options": ["Buzun erimesi", "Şekerin suda çözünmesi", "Kağıdın yanması", "Camın kırılması"],
+    "answer": "Kağıdın yanması"
+  },
+  {
+    "question": "İyonik bağlı bileşikler genellikle hangi özellikteki elementler arasında oluşur?",
+    "options": ["Metal – metal", "Ametal – ametal", "Metal – ametal", "Soygaz – soygaz"],
+    "answer": "Metal – ametal"
+  },
+  {
+    "question": "Bir mol karbon dioksit (CO₂) kaç adet molekül içerir?",
+    "options": ["1", "6.02 x 10²³", "12", "44"],
+    "answer": "6.02 x 10²³"
+  },
+  {
+    "question": "Hangisi periyodik tabloda bir periyodu belirtir?",
+    "options": ["Dikey sütun", "Yatay satır", "Grup numarası", "Atom hacmi"],
+    "answer": "Yatay satır"
+  },
+  {
+    "question": "Bir elementin elektron dağılımında en dış kabuktaki elektronlara ne ad verilir?",
+    "options": ["Çekirdek elektronu", "Yüksek enerjili elektron", "Değerlik elektronu", "Orbit elektronları"],
+    "answer": "Değerlik elektronu"
+  },
+  {
+    "question": "Hangi özellik sadece gazlara özgüdür?",
+    "options": ["Belirli hacim", "Akışkanlık", "Sıkıştırılabilirlik", "Belirli şekil"],
+    "answer": "Sıkıştırılabilirlik"
+  },
+  {
+    "question": "Asitler suda çözündüğünde hangi iyonu oluştururlar?",
+    "options": ["OH⁻", "H⁺", "Na⁺", "Cl⁻"],
+    "answer": "H⁺"
+  },
+  {
+    "question": "Bazlar suda çözündüğünde hangi iyonu oluşturur?",
+    "options": ["H⁺", "OH⁻", "Na⁺", "O²⁻"],
+    "answer": "OH⁻"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi endotermik bir olaydır?",
+    "options": ["Suyun donması", "Buzun erimesi", "Yanma tepkimesi", "Nötralleşme tepkimesi"],
+    "answer": "Buzun erimesi"
+  },
+  {
+    "question": "CH₃COOH (asetik asit) bileşiğinde kaç farklı element bulunur?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir karışım değildir?",
+    "options": ["Hava", "Şekerli su", "Saf su", "Limonata"],
+    "answer": "Saf su"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hem asit hem baz özelliği gösterebilen maddelere verilen isimdir?",
+    "options": ["İyonik", "Nötr", "Amfoter", "Polimer"],
+    "answer": "Amfoter"
+  },
+  {
+    "question": "Hangisi bir maddenin kimyasal özelliklerinden biridir?",
+    "options": ["Erime noktası", "Kırılganlık", "Asitlerle tepkimeye girme", "Renk"],
+    "answer": "Asitlerle tepkimeye girme"
+  },
+  {
+    "question": "pH değeri 2 olan bir madde aşağıdakilerden hangisi olabilir?",
+    "options": ["Sabun", "Limon suyu", "Saf su", "Amonyak çözeltisi"],
+    "answer": "Limon suyu"
+  }
 ]
