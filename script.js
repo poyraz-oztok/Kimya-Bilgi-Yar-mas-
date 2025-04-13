@@ -148,7 +148,7 @@ function endQuiz() {
 
 function toggleMusic() {
   if (titleMusic.paused && gameMusic.paused && endMusic.paused) {
-    titleMusic.play();
+    gameMusic.play();
   } else {
     titleMusic.pause();
     gameMusic.pause();
