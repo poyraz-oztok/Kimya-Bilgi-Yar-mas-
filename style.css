@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   background-color: #2b2b2b;
@@ -5,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 .quiz-container {
@@ -12,7 +14,7 @@ body {
   padding: 2rem;
   border-radius: 10px;
   width: 400px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #options button {
@@ -114,7 +116,7 @@ body {
   color: #f8f8ff;
   padding: 2rem;
   border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 #end-screen h2 {
@@ -139,4 +141,60 @@ body {
 
 #retry-btn:hover {
   background-color: #45a049;
+}
+
+/* Responsive Tasarım - Mobil için */
+@media (max-width: 768px) {
+  .quiz-container {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  #start-btn, #next-btn, #retry-btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  #remaining-questions {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .timer {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .start-screen {
+    margin-top: 50px;
+    padding: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .quiz-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #start-btn, #next-btn, #retry-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  #remaining-questions {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .timer {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .start-screen {
+    margin-top: 30px;
+    padding: 1.5%;
+  }
 }
