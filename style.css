@@ -143,7 +143,7 @@ body {
   background-color: #45a049;
 }
 
-/* Responsive Tasarım - Mobil için */
+
 @media (max-width: 768px) {
   .quiz-container {
     width: 90%;
