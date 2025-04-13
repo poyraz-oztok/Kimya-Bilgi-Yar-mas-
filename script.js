@@ -4,62 +4,62 @@ let questions = [];
 let timerDuration = 150;
 let timerInterval;
 
-// Ses dosyaları
+
 const titleMusic = document.getElementById("title-music");
 const gameMusic = document.getElementById("game-music");
 const endMusic = document.getElementById("end-music");
 
-// Başlangıç müziği çal
+
 function playTitleMusic() {
   titleMusic.play();
 }
 
-// Oyun müziği çal
+
 function playGameMusic() {
-  titleMusic.pause();  // Başlangıç müziğini durdur
+  titleMusic.pause();
   gameMusic.play();
 }
 
-// Bitiş müziği çal
+
 function playEndMusic() {
-  gameMusic.pause();  // Oyun müziğini durdur
+  gameMusic.pause(); 
   endMusic.play();
 }
 
-// Sayfa yüklendiğinde sadece soruları al
+
 async function prepareQuiz() {
   const response = await fetch('questions.json');
   questions = await response.json();
   
-  // Soruları karıştır
+
   shuffleQuestions();
 }
 
-prepareQuiz(); // önceden yükle
+prepareQuiz();
 
-// Soruları rastgele sıraya koyma
+
 function shuffleQuestions() {
   for (let i = questions.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [questions[i], questions[j]] = [questions[j], questions[i]]; // Değişim
+    [questions[i], questions[j]] = [questions[j], questions[i]]; 
   }
 }
 
-// Başla butonuna tıklanınca çağrılır
+
 function startQuiz() {
   document.getElementById("start-screen").style.display = "none";
   document.getElementById("quiz-container").style.display = "block";
   document.getElementById("timer").style.display = "block";
   document.getElementById("remaining-questions").style.display = "block";
 
-  playGameMusic();  // Oyun müziğini başlat
+  playGameMusic();
   startTimer();
   showQuestion();
-  updateRemainingQuestions();  // Başlangıçta kalan soruları güncelle
+  updateRemainingQuestions();
 }
 
 document.getElementById("start-btn").addEventListener("click", async () => {
-  await prepareQuiz(); // Sorular yüklenmeden başlama
+  await prepareQuiz();
   startQuiz();
 });
 
@@ -96,10 +96,10 @@ function showQuestion() {
     optionsContainer.appendChild(btn);
   });
 
-  updateRemainingQuestions(); // Kalan soruları güncelle
+  updateRemainingQuestions();
 }
 
-// Kalan soruları gösterme
+
 function updateRemainingQuestions() {
   const remainingQuestions = questions.length - currentQuestion - 1;
   document.getElementById("remaining-questions").textContent = `Kalan Sorular: ${remainingQuestions}`;
@@ -142,10 +142,10 @@ function endQuiz() {
     document.getElementById("final-message").textContent = "Tüm soruları çözdün";
   }
 
-  playEndMusic(); // Bitiş müziğini başlat
+  playEndMusic();
 }
 
-// Müziği açma / kapama
+
 function toggleMusic() {
   if (titleMusic.paused && gameMusic.paused && endMusic.paused) {
     titleMusic.play();
